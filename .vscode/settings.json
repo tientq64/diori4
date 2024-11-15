@@ -1,0 +1,23 @@
+{
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[typescript]": {
+		"editor.formatOnSave": true,
+		"files.insertFinalNewline": true
+	},
+	"[typescriptreact]": {
+		"editor.formatOnSave": true,
+		"files.insertFinalNewline": true
+	},
+	"[scss]": {
+		"editor.formatOnSave": true,
+		"files.insertFinalNewline": true
+	},
+	"tailwindCSS.experimental.classRegex": [
+		[
+			"clsx\\(([^)]*)\\)",
+			"(?:'|\"|`)([^']*)(?:'|\"|`)"
+		]
+	]
+}
